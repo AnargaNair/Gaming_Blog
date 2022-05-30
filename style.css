@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Syne Mono', monospace;
+}
+
+.nav-back{
+    width: 80%;
+    height: 30vh;
+    background: url("https://t3.ftcdn.net/jpg/02/23/24/00/360_F_223240002_6GAvK9B0uB4v5wGIkEiAUAOun4C4hwGd.jpg");
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.nav-back h1{
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 30px;
+    max-width: 300px;
+}
+.nav-main{
+    background: url(https://data.whicdn.com/images/322595367/original.gif);
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-main a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-main a:hover{
+    background:linear-gradient(to right,crimson ,rgb(89, 27, 118));
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+.aboutme{
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.left{
+    width: 12%;
+    height: 300px;
+    background: url("https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=");
+    color: white;
+    padding: 10px 20px;
+    border: 2px ,black;
+    margin: 15px;
+}
+
+.middle{
+    width: 36% ;
+    background: url("https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=");
+    color: white;
+    padding: 10px 20px;
+    height: 300px;
+    margin: 15px;
+}
+.right{
+    width: 12%;
+    height: 300px;
+    background: url("https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=");
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+.att-people{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.att-first{
+    width: 17%;
+    height: 60%;
+    background: rgb(231, 231, 231);
+    padding: 10px 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.att-first img{
+    width: 90px;
+    height: 90px;
+    border: 5px,black;
+    border-radius: 150px;
+    margin-left: 40px;
+}
+
+
+
+.pg{
+    margin: 5px;
+    border: 1px solid rgba(204, 194, 194, 0.363);
+    float: left;
+    width: 250px;
+    height: 220px; 
+    text-align: center;
+}
+.pg img{
+    width: 100%;
+    height: 80%;
+}
+
+.fv{
+    height: 60vh;
+    width: 100%;
+    margin-left: 150px;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 25vh;
+    background: url("https://i.pinimg.com/originals/67/c0/d2/67c0d28e4408d3edc51bca5c1854c65d.gif");
+    margin:50 150px;
+    padding: 3%;
+}
+
+.sub a {
+    text-decoration: none;
+    background-color: rgba(255, 1, 1, 0.655) ;
+    padding: 10px 10px;
+}
+
+.about{
+    width: 75%;
+    height: auto;
+    background-color: rgb(34, 33, 33);
+    padding: 20px;
+    color: rgb(86, 86, 86);
+    margin: 0 150px;
+}
